@@ -114,8 +114,7 @@ int fiemap_copy(int src_fd, int dst_fd)
 			}
 							
 			if (nread == 0)
-			{
-				printf("%s \n", "read end");	
+			{	
 				break;
 			}
 
